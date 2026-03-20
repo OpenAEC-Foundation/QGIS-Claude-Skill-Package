@@ -130,4 +130,19 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 [OpenAEC Foundation](https://github.com/OpenAEC-Foundation)
 
+---
+
+## Companion Skills: Cross-Technology Integration
+
+> **[Cross-Tech AEC Integration Skills](https://github.com/OpenAEC-Foundation/Cross-Tech-AEC-Claude-Skill-Package)** — 15 skills for technology boundaries
+
+| Skill | Boundary | What it adds |
+|-------|----------|-------------|
+| `crosstech-impl-qgis-bim-georef` | QGIS ↔ BIM/IFC | Import IFC footprints, CRS from IfcMapConversion, GeoPackage export |
+| `crosstech-core-coordinate-systems` | BIM ↔ GIS | EPSG codes, pyproj pipelines, IfcMapConversion formulas |
+| `crosstech-errors-coordinate-mismatch` | BIM ↔ GIS | Debug wrong locations, CRS errors, axis mismatches |
+| `crosstech-impl-docker-aec-stack` | Docker ↔ QGIS | QGIS Server containerization |
+
+---
+
 Built with the [Skill Package Workflow Template](https://github.com/OpenAEC-Foundation/Skill-Package-Workflow-Template) — a 7-phase research-first methodology proven across 5 packages and 150+ skills.
