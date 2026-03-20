@@ -1,6 +1,6 @@
 # QGIS Skill Package — ROADMAP
 
-## Current Status: B7 IN PROGRESS (Publication)
+## Current Status: COMPLETE — v1.0.0 PUBLISHED
 
 | Phase | Description | Status | Skills |
 |-------|-------------|--------|--------|
@@ -12,7 +12,7 @@
 | B4 | Topic-Specific Research | DONE (targeted: 3D, georef, server) | — |
 | B5 | Skill Creation (batches) | DONE | 19/19 |
 | B6 | Validation | DONE | — |
-| B7 | Publication | IN PROGRESS | — |
+| B7 | Publication | DONE | — |
 | B2 | Deep Research (Vooronderzoek) | NOT STARTED | — |
 | B3 | Masterplan Refinement | NOT STARTED | — |
 | B4 | Topic-Specific Research | NOT STARTED | — |
