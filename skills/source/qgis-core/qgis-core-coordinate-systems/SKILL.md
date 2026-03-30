@@ -4,7 +4,7 @@ description: >
   Use when handling coordinate reference systems, transforming coordinates, or measuring distances/areas.
   Prevents silent data corruption from wrong CRS assignment and lat/lon coordinate order confusion.
   Covers CRS creation, coordinate transforms, datum transformations, distance measurement, and EPSG database.
-  Keywords: CRS, EPSG, coordinate transform, projection, QgsCoordinateReferenceSystem, datum, QgsDistanceArea, reprojection.
+  Keywords: CRS, EPSG, coordinate transform, projection, QgsCoordinateReferenceSystem, datum, QgsDistanceArea, reprojection, wrong location, map shifted, coordinates don't match, set projection.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

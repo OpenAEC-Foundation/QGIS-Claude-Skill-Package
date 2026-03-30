@@ -4,7 +4,7 @@ description: >
   Use when writing QGIS expressions for filtering, labeling, symbology, or field calculations.
   Prevents expression syntax errors and context misconfiguration.
   Covers QgsExpression parsing, evaluation contexts, field calculator, data-defined properties, and custom functions.
-  Keywords: QgsExpression, expression, field calculator, label expression, data-defined, @qgsfunction, filter, evaluate.
+  Keywords: QgsExpression, expression, field calculator, label expression, data-defined, @qgsfunction, filter, evaluate, calculate field, formula, conditional label, dynamic value.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

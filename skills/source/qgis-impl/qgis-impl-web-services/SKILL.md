@@ -4,7 +4,7 @@ description: >
   Use when loading WMS/WFS/WMTS layers, configuring XYZ tile sources, or setting up QGIS Server.
   Prevents URI format errors for OGC web services and server misconfiguration.
   Covers WMS/WMTS/WFS/WCS clients, XYZ tiles, QGIS Server, server filters, and OGC API features.
-  Keywords: WMS, WFS, WMTS, WCS, XYZ tiles, OGC, QGIS Server, web service, tile layer, OGC API.
+  Keywords: WMS, WFS, WMTS, WCS, XYZ tiles, OGC, QGIS Server, web service, tile layer, OGC API, add satellite imagery, load online map, basemap, OpenStreetMap tiles.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

@@ -4,7 +4,7 @@ description: >
   Use when running QGIS processing algorithms, creating custom algorithms, or chaining geoprocessing operations.
   Prevents hardcoded algorithm IDs, missing feedback handling, and incorrect parameter types.
   Covers processing.run(), custom QgsProcessingAlgorithm, @alg decorator, parameter types, and batch processing.
-  Keywords: processing.run, QgsProcessingAlgorithm, algorithm, geoprocessing, batch processing, processing script, native:buffer.
+  Keywords: processing.run, QgsProcessingAlgorithm, algorithm, geoprocessing, batch processing, processing script, native:buffer, run tool from Python, automate QGIS, batch geoprocessing.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

@@ -4,7 +4,7 @@ description: >
   Use when planning a spatial analysis workflow, choosing between analysis approaches, or chaining multiple operations.
   Prevents wrong analysis method selection and suboptimal workflow ordering.
   Covers vector vs raster decision trees, processing algorithm selection, workflow chaining, CRS/format guidance, and MCP server integration.
-  Keywords: analysis workflow, spatial analysis, which algorithm, vector vs raster, workflow chain, analysis plan, orchestrate.
+  Keywords: analysis workflow, spatial analysis, which algorithm, vector vs raster, workflow chain, analysis plan, orchestrate, how to start analysis, choose processing tool, plan GIS workflow.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

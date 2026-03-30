@@ -4,7 +4,7 @@ description: >
   Use when creating 3D map views, configuring terrain, or rendering vector/point cloud data in 3D.
   Prevents performance issues from unoptimized point cloud rendering and incorrect terrain configuration.
   Covers Qgs3DMapSettings, terrain providers, 3D symbols, materials, camera/lights, and layout integration.
-  Keywords: 3D visualization, Qgs3DMapSettings, terrain, point cloud 3D, 3D symbols, Phong material, 3D map, 3D renderer.
+  Keywords: 3D visualization, Qgs3DMapSettings, terrain, point cloud 3D, 3D symbols, Phong material, 3D map, 3D renderer, show in 3D, elevation view, terrain model, 3D buildings.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

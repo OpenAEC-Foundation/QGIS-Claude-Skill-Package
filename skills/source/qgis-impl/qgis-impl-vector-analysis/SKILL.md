@@ -4,7 +4,7 @@ description: >
   Use when performing spatial analysis on vector data: buffering, clipping, intersecting, dissolving, or joining layers.
   Prevents geometry operation failures from NULL geometries and wrong CRS combinations.
   Covers spatial queries, overlay operations, attribute/spatial joins, field calculations, and vector output.
-  Keywords: vector analysis, buffer, clip, intersect, dissolve, spatial join, overlay, QgsGeometry, QgsVectorFileWriter.
+  Keywords: vector analysis, buffer, clip, intersect, dissolve, spatial join, overlay, QgsGeometry, QgsVectorFileWriter, find nearby, within distance, overlap analysis, combine layers.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

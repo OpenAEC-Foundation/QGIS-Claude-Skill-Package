@@ -4,7 +4,7 @@ description: >
   Use when creating QGIS projects, understanding PyQGIS architecture, or reasoning about the QGIS data model.
   Prevents mixing standalone script initialization with plugin context, and threading violations.
   Covers Qt-based architecture, 5 core modules, project lifecycle, layer model, provider system, and QGIS 4.0 Qt6 notes.
-  Keywords: QGIS architecture, QgsProject, QgsApplication, PyQGIS modules, layer model, provider system, plugin architecture.
+  Keywords: QGIS architecture, QgsProject, QgsApplication, PyQGIS modules, layer model, provider system, plugin architecture, how QGIS works, QGIS internals, PyQGIS overview.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

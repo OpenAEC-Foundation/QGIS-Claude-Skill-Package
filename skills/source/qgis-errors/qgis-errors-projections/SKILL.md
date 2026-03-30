@@ -4,7 +4,7 @@ description: >
   Use when diagnosing CRS/projection errors, coordinate mismatches, or datum transformation issues.
   Prevents silent data corruption from wrong CRS assignment and coordinate order confusion.
   Covers wrong EPSG selection, lat/lon vs lon/lat, datum warnings, on-the-fly reprojection pitfalls, and fix patterns.
-  Keywords: CRS error, projection error, wrong EPSG, coordinate mismatch, datum transformation, lat lon order, reprojection.
+  Keywords: CRS error, projection error, wrong EPSG, coordinate mismatch, datum transformation, lat lon order, reprojection, layer in wrong place, coordinates swapped.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

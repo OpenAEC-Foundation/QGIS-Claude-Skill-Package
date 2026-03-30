@@ -4,7 +4,7 @@ description: >
   Use when diagnosing data loading failures, invalid layers, or provider connection errors.
   Prevents silent failures from unchecked layer validity and incorrect URI formats.
   Covers invalid layer detection, URI format errors, encoding issues, GeoPackage locking, connection failures, and performance.
-  Keywords: invalid layer, isValid, data loading error, URI format, encoding, GeoPackage lock, connection failed, provider error.
+  Keywords: invalid layer, isValid, data loading error, URI format, encoding, GeoPackage lock, connection failed, provider error, layer won't load, can't open shapefile.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

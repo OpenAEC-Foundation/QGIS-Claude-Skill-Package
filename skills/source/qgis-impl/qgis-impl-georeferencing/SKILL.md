@@ -4,7 +4,7 @@ description: >
   Use when georeferencing raster images or vector data using ground control points.
   Prevents accuracy loss from insufficient GCPs and wrong transformation type selection.
   Covers GCP management, 7 transformation types, QgsVectorWarper, residual computation, and accuracy assessment.
-  Keywords: georeferencing, GCP, ground control point, QgsGcpPoint, transformation, Helmert, polynomial, thin plate spline, world file.
+  Keywords: georeferencing, GCP, ground control point, QgsGcpPoint, transformation, Helmert, polynomial, thin plate spline, world file, align image to map, scanned map.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

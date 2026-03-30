@@ -4,7 +4,7 @@ description: >
   Use when loading data into QGIS, constructing layer URIs, or choosing between data formats.
   Prevents URI format errors that cause silent layer loading failures.
   Covers 12+ data providers, URI construction patterns, vector/raster/mesh formats, and GeoPackage best practices.
-  Keywords: data provider, QgsDataSourceUri, load layer, Shapefile, GeoPackage, GeoJSON, PostGIS, WMS, WFS, memory layer, CSV.
+  Keywords: data provider, QgsDataSourceUri, load layer, Shapefile, GeoPackage, GeoJSON, PostGIS, WMS, WFS, memory layer, CSV, open file, import data, add layer, connect database.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

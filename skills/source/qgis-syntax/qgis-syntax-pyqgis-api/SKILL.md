@@ -4,7 +4,7 @@ description: >
   Use when writing PyQGIS scripts, accessing features, editing layers, or performing geometry operations.
   Prevents edit session violations, threading crashes, and inefficient feature iteration.
   Covers 4 scripting contexts, feature CRUD, geometry operations, spatial indexing, background tasks, and basic symbology.
-  Keywords: PyQGIS, QgsFeature, QgsFeatureRequest, QgsGeometry, edit layer, spatial index, QgsTask, background thread, symbology.
+  Keywords: PyQGIS, QgsFeature, QgsFeatureRequest, QgsGeometry, edit layer, spatial index, QgsTask, background thread, symbology, read features, loop through layer, change style, select by attribute.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

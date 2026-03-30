@@ -4,7 +4,7 @@ description: >
   Use when performing raster analysis: map algebra, terrain analysis, raster classification, or DEM processing.
   Prevents NoData handling errors and incorrect raster calculator expressions.
   Covers QgsRasterCalculator, DEM analysis (hillshade/slope/aspect), raster renderers, and GDAL processing algorithms.
-  Keywords: raster analysis, QgsRasterCalculator, DEM, hillshade, slope, aspect, raster renderer, terrain, map algebra.
+  Keywords: raster analysis, QgsRasterCalculator, DEM, hillshade, slope, aspect, raster renderer, terrain, map algebra, elevation analysis, height map, calculate slope, terrain analysis.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

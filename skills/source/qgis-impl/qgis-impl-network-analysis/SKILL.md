@@ -4,7 +4,7 @@ description: >
   Use when performing routing, shortest path, or service area analysis on road/transport networks.
   Prevents incorrect results from wrong edge direction assumptions and missing cost strategies.
   Covers QgsGraphBuilder, QgsGraphAnalyzer (Dijkstra), QgsVectorLayerDirector, cost strategies, and service areas.
-  Keywords: network analysis, routing, shortest path, Dijkstra, service area, QgsGraphBuilder, QgsGraphAnalyzer, road network.
+  Keywords: network analysis, routing, shortest path, Dijkstra, service area, QgsGraphBuilder, QgsGraphAnalyzer, road network, find route, travel distance, reachability, path between points.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

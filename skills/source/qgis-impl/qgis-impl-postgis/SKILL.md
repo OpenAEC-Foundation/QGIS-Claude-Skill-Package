@@ -4,7 +4,7 @@ description: >
   Use when connecting to PostGIS databases, loading spatial tables, or executing SQL from PyQGIS.
   Prevents connection string errors and plain-text password exposure in production.
   Covers QgsDataSourceUri, PostGIS layer loading (table/view/SQL), SQL execution, schema discovery, and authentication.
-  Keywords: PostGIS, QgsDataSourceUri, PostgreSQL, spatial database, SQL, database connection, schema, PostGIS raster.
+  Keywords: PostGIS, QgsDataSourceUri, PostgreSQL, spatial database, SQL, database connection, schema, PostGIS raster, connect to PostGIS, load from database, spatial SQL query.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

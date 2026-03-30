@@ -4,7 +4,7 @@ description: >
   Use when creating print layouts, exporting maps to PDF/SVG/image, or generating atlas series.
   Prevents empty map exports from missing extent configuration and atlas misconfiguration.
   Covers QgsPrintLayout, layout items (map, label, legend, scale bar), atlas generation, and PDF/SVG/image export.
-  Keywords: print layout, QgsPrintLayout, map export, PDF, atlas, legend, scale bar, QgsLayoutExporter, map composition.
+  Keywords: print layout, QgsPrintLayout, map export, PDF, atlas, legend, scale bar, QgsLayoutExporter, map composition, export to PDF, print map, create atlas, add legend.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

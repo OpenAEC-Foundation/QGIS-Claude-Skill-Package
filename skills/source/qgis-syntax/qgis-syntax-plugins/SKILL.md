@@ -4,7 +4,7 @@ description: >
   Use when creating QGIS plugins, adding menu items, or integrating custom UI into QGIS.
   Prevents plugin lifecycle violations and resource cleanup failures.
   Covers plugin structure, metadata.txt, classFactory/initGui/unload, Qt Designer, and Plugin Repository publishing.
-  Keywords: QGIS plugin, classFactory, initGui, unload, metadata.txt, iface, Plugin Builder, plugin repository.
+  Keywords: QGIS plugin, classFactory, initGui, unload, metadata.txt, iface, Plugin Builder, plugin repository, make plugin, create QGIS plugin, distribute plugin, plugin development.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:

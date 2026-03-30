@@ -4,7 +4,7 @@ description: >
   Use when generating complete maps from data: loading, styling, composing layouts, and exporting.
   Prevents poor cartographic choices and empty map exports.
   Covers the full map pipeline: data loading, symbology selection, labeling, layout composition, atlas generation, and export.
-  Keywords: map generation, create map, export map, symbology, labeling, layout, atlas, cartography, map pipeline, PDF export.
+  Keywords: map generation, create map, export map, symbology, labeling, layout, atlas, cartography, map pipeline, PDF export, make a map, print map, style layer, beautiful map.
 license: MIT
 compatibility: "Designed for Claude Code. Requires QGIS 3.44+ / PyQGIS 3.x."
 metadata:
