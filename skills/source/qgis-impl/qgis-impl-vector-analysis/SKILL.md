@@ -135,10 +135,10 @@ from qgis.core import QgsSpatialIndex, QgsPointXY
 
 index = QgsSpatialIndex(layer.getFeatures())
 
-# Nearest neighbor — returns feature IDs
+# Nearest neighbor: returns feature IDs
 nearest_ids = index.nearestNeighbor(QgsPointXY(15.5, 47.1), 5)
 
-# Bounding box intersection — returns feature IDs
+# Bounding box intersection: returns feature IDs
 bbox = QgsRectangle(14.0, 46.0, 17.0, 49.0)
 intersecting_ids = index.intersects(bbox)
 

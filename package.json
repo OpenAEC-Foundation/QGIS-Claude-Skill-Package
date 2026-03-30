@@ -1,0 +1,44 @@
+{
+  "name": "@openaec/qgis-claude-skill-package",
+  "version": "1.1.0",
+  "description": "19 deterministic Claude Code skills for QGIS/PyQGIS spatial analysis, map creation, geoprocessing, and plugin development",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/QGIS-Claude-Skill-Package"
+  },
+  "keywords": [
+    "agent-skills",
+    "agentskills",
+    "claude-skills",
+    "qgis",
+    "pyqgis",
+    "gis",
+    "spatial",
+    "geoprocessing",
+    "aec"
+  ],
+  "agents": {
+    "skills": [
+      { "name": "qgis-agents-analysis-orchestrator", "path": "./skills/source/qgis-agents/qgis-agents-analysis-orchestrator" },
+      { "name": "qgis-agents-map-generator", "path": "./skills/source/qgis-agents/qgis-agents-map-generator" },
+      { "name": "qgis-core-architecture", "path": "./skills/source/qgis-core/qgis-core-architecture" },
+      { "name": "qgis-core-coordinate-systems", "path": "./skills/source/qgis-core/qgis-core-coordinate-systems" },
+      { "name": "qgis-core-data-providers", "path": "./skills/source/qgis-core/qgis-core-data-providers" },
+      { "name": "qgis-errors-data-loading", "path": "./skills/source/qgis-errors/qgis-errors-data-loading" },
+      { "name": "qgis-errors-projections", "path": "./skills/source/qgis-errors/qgis-errors-projections" },
+      { "name": "qgis-impl-3d-visualization", "path": "./skills/source/qgis-impl/qgis-impl-3d-visualization" },
+      { "name": "qgis-impl-georeferencing", "path": "./skills/source/qgis-impl/qgis-impl-georeferencing" },
+      { "name": "qgis-impl-network-analysis", "path": "./skills/source/qgis-impl/qgis-impl-network-analysis" },
+      { "name": "qgis-impl-postgis", "path": "./skills/source/qgis-impl/qgis-impl-postgis" },
+      { "name": "qgis-impl-print-layouts", "path": "./skills/source/qgis-impl/qgis-impl-print-layouts" },
+      { "name": "qgis-impl-raster-analysis", "path": "./skills/source/qgis-impl/qgis-impl-raster-analysis" },
+      { "name": "qgis-impl-vector-analysis", "path": "./skills/source/qgis-impl/qgis-impl-vector-analysis" },
+      { "name": "qgis-impl-web-services", "path": "./skills/source/qgis-impl/qgis-impl-web-services" },
+      { "name": "qgis-syntax-expressions", "path": "./skills/source/qgis-syntax/qgis-syntax-expressions" },
+      { "name": "qgis-syntax-plugins", "path": "./skills/source/qgis-syntax/qgis-syntax-plugins" },
+      { "name": "qgis-syntax-processing-scripts", "path": "./skills/source/qgis-syntax/qgis-syntax-processing-scripts" },
+      { "name": "qgis-syntax-pyqgis-api", "path": "./skills/source/qgis-syntax/qgis-syntax-pyqgis-api" }
+    ]
+  }
+}

@@ -229,7 +229,7 @@ distance_km = d.convertLengthMeasurement(distance_m, Qgis.DistanceUnit.Kilometer
 ```python
 from qgis.core import QgsProject, QgsCoordinateReferenceSystem
 
-# Set project CRS — all layers render in this CRS via on-the-fly reprojection
+# Set project CRS: all layers render in this CRS via on-the-fly reprojection
 QgsProject.instance().setCrs(QgsCoordinateReferenceSystem("EPSG:3857"))
 ```
 

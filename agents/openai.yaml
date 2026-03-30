@@ -1,0 +1,6 @@
+# OpenAI Codex skill discovery
+name: qgis-claude-skill-package
+description: >
+  19 deterministic Claude Code skills for QGIS/PyQGIS spatial analysis,
+  map creation, geoprocessing, and plugin development.
+skills_directory: ./skills/source

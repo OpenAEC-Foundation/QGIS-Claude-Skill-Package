@@ -83,7 +83,7 @@ project.addMapLayer(rlayer)
 ```python
 from qgis.core import QgsCoordinateReferenceSystem
 
-# Set project CRS — ALWAYS use a projected CRS for maps with scale bars
+# Set project CRS: ALWAYS use a projected CRS for maps with scale bars
 project_crs = QgsCoordinateReferenceSystem("EPSG:28992")  # Example: Dutch RD New
 project.setCrs(project_crs)
 ```
@@ -179,13 +179,13 @@ title.adjustSizeToText()
 title.attemptMove(QgsLayoutPoint(15, 5, QgsUnitTypes.LayoutMillimeters))
 layout.addLayoutItem(title)
 
-# Legend — ALWAYS link to map item
+# Legend: ALWAYS link to map item
 legend = QgsLayoutItemLegend(layout)
 legend.setLinkedMap(map_item)
 legend.attemptMove(QgsLayoutPoint(15, 210, QgsUnitTypes.LayoutMillimeters))
 layout.addLayoutItem(legend)
 
-# Scale bar — ALWAYS link to map item
+# Scale bar: ALWAYS link to map item
 scalebar = QgsLayoutItemScaleBar(layout)
 scalebar.setStyle("Single Box")
 scalebar.setLinkedMap(map_item)

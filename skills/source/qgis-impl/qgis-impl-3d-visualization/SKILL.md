@@ -21,7 +21,7 @@ metadata:
 3D classes live in `qgis._3d` (underscore prefix because Python modules cannot start with a digit). Base classes live in `qgis.core`.
 
 ```python
-# 3D-specific classes — ALWAYS import from qgis._3d
+# 3D-specific classes: ALWAYS import from qgis._3d
 from qgis._3d import (
     Qgs3DMapSettings,
     QgsVectorLayer3DRenderer,
@@ -40,7 +40,7 @@ from qgis._3d import (
     QgsDemTerrainSettings,
 )
 
-# Base classes — ALWAYS import from qgis.core
+# Base classes: ALWAYS import from qgis.core
 from qgis.core import QgsAbstract3DSymbol, QgsAbstract3DRenderer
 ```
 
@@ -235,7 +235,7 @@ from qgis._3d import QgsPointLightSettings, QgsDirectionalLightSettings
 from qgis.core import QgsVector3D
 from qgis.PyQt.QtGui import QColor
 
-# Point light — illuminates from a specific position
+# Point light: illuminates from a specific position
 point_light = QgsPointLightSettings()
 point_light.setPosition(QgsVector3D(0, 1000, 0))
 point_light.setColor(QColor(255, 255, 255))
@@ -244,7 +244,7 @@ point_light.setConstantAttenuation(1.0)
 point_light.setLinearAttenuation(0.0)
 point_light.setQuadraticAttenuation(0.0)
 
-# Directional light — simulates sunlight
+# Directional light: simulates sunlight
 dir_light = QgsDirectionalLightSettings()
 dir_light.setDirection(QgsVector3D(0.5, -1.0, 0.5))
 dir_light.setColor(QColor(255, 255, 230))
@@ -269,7 +269,7 @@ camera.setHeadingAngle(0.0)  # North-facing
 ### Pattern 8: Eye Dome Lighting (Point Clouds)
 
 ```python
-# Enhances depth perception — especially useful for point clouds
+# Enhances depth perception: especially useful for point clouds
 settings.setEyeDomeLightingEnabled(True)
 settings.setEyeDomeLightingStrength(1000.0)
 settings.setEyeDomeLightingDistance(1)
@@ -311,23 +311,23 @@ Control how features relate to terrain elevation:
 ```python
 from qgis.core import Qgis
 
-# Absolute — Z values are absolute heights (ignore terrain)
+# Absolute: Z values are absolute heights (ignore terrain)
 symbol.setAltitudeClamping(Qgis.AltitudeClamping.Absolute)
 
-# Relative — Z values are added to terrain elevation
+# Relative: Z values are added to terrain elevation
 symbol.setAltitudeClamping(Qgis.AltitudeClamping.Relative)
 
-# Terrain — features are draped onto terrain (Z values ignored)
+# Terrain: features are draped onto terrain (Z values ignored)
 symbol.setAltitudeClamping(Qgis.AltitudeClamping.Terrain)
 ```
 
 ### Altitude Binding (Polygons/Lines)
 
 ```python
-# Vertex — each vertex clamped individually (follows terrain closely)
+# Vertex: each vertex clamped individually (follows terrain closely)
 symbol.setAltitudeBinding(Qgis.AltitudeBinding.Vertex)
 
-# Centroid — entire feature clamped by centroid height (flat placement)
+# Centroid: entire feature clamped by centroid height (flat placement)
 symbol.setAltitudeBinding(Qgis.AltitudeBinding.Centroid)
 ```
 

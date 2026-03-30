@@ -110,10 +110,10 @@ if not layer.isValid():
 **Fix pattern for GeoPackage**:
 
 ```python
-# WRONG — loads first layer or fails silently
+# WRONG: loads first layer or fails silently
 layer = QgsVectorLayer("/data/data.gpkg", "My Layer", "ogr")
 
-# CORRECT — explicit layer name
+# CORRECT: explicit layer name
 layer = QgsVectorLayer("/data/data.gpkg|layername=roads", "Roads", "ogr")
 ```
 
@@ -122,7 +122,7 @@ layer = QgsVectorLayer("/data/data.gpkg|layername=roads", "Roads", "ogr")
 ```python
 from qgis.core import QgsDataSourceUri, QgsVectorLayer
 
-# ALWAYS use QgsDataSourceUri — NEVER concatenate strings
+# ALWAYS use QgsDataSourceUri: NEVER concatenate strings
 uri = QgsDataSourceUri()
 uri.setConnection("localhost", "5432", "mydb", "user", "pass")
 uri.setDataSource("public", "roads", "geom", "", "gid")
@@ -248,7 +248,7 @@ uri_secure.setDataSource("public", "parcels", "geom", "", "gid")
 ```python
 from qgis.core import QgsRasterLayer
 
-# CORRECT WMS URI format — note all required parameters
+# CORRECT WMS URI format: note all required parameters
 uri = (
     "crs=EPSG:4326"
     "&format=image/png"
@@ -284,29 +284,29 @@ from qgis.core import QgsVectorLayer, QgsFeatureRequest, QgsRectangle
 
 layer = QgsVectorLayer("/data/huge_dataset.gpkg|layername=parcels", "Parcels", "ogr")
 
-# WRONG — loads ALL features into memory
+# WRONG: loads ALL features into memory
 all_features = list(layer.getFeatures())  # Memory explosion for large datasets
 
-# CORRECT — use spatial filter to limit features
+# CORRECT: use spatial filter to limit features
 bbox = QgsRectangle(100000, 400000, 110000, 410000)
 request = QgsFeatureRequest().setFilterRect(bbox)
 for feature in layer.getFeatures(request):
     # Process feature
     pass
 
-# CORRECT — use attribute filter
+# CORRECT: use attribute filter
 request = QgsFeatureRequest().setFilterExpression('"status" = \'active\'')
 for feature in layer.getFeatures(request):
     pass
 
-# CORRECT — limit returned attributes for performance
+# CORRECT: limit returned attributes for performance
 request = QgsFeatureRequest()
 request.setSubsetOfAttributes(["name", "area"], layer.fields())
 request.setFlags(QgsFeatureRequest.NoGeometry)  # Skip geometry if not needed
 for feature in layer.getFeatures(request):
     pass
 
-# CORRECT — use setLimit() to cap result count
+# CORRECT: use setLimit() to cap result count
 request = QgsFeatureRequest().setLimit(1000)
 for feature in layer.getFeatures(request):
     pass
